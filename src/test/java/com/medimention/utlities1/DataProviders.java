@@ -9,7 +9,7 @@ public class DataProviders {
 	@DataProvider(name="RegData")
 	public String[][] getData() throws IOException
 	{
-		String path= ".\\TestData\\MOCK_DATA (3).xlsx";
+		String path= ".\\TestData\\MOCK_DATA.xlsx";
 		
 		ExcelUtility xlutils= new ExcelUtility(path);
 		
