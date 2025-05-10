@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<!--<groups>
+	<run>
+		<include name="DataDriven"></include>
+		<exclude name="Regression"></exclude>
+	</run>
+</groups> -->
+	<listeners>
+		<listener class-name="com.medimention.utlities1.ReportingManager" />
+	</listeners>
+	<test thread-count="5" name="Test">
+		<parameter name="os" value="windows" />
+		<parameter name="browser" value="chrome" />
+		<parameter name="url" value="https://www.medimention.com/" />
+		<classes>
+			<class name="com.medimention.testcases.Tc_001_Register_DDT" />
+			<class name="com.medimention.testcases.Tc_001_Registration" />
+			<class name="com.medimention.testcases.Tc_002_getInTouch" />
+			<class name="com.medimention.testcases.Tc_003_searchMedicine" />
+
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

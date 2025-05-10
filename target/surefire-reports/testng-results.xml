@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-10T20:53:40 IST" name="Suite" finished-at="2025-05-10T20:55:21 IST" duration-ms="101256">
+    <groups>
+      <group name="Regression">
+        <method signature="Tc_001_Registration.account_Register()[pri:0, instance:com.medimention.testcases.Tc_001_Registration@557caf28]" name="account_Register" class="com.medimention.testcases.Tc_001_Registration"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2025-05-10T20:53:40 IST" name="Test" finished-at="2025-05-10T20:55:21 IST" duration-ms="101256">
+      <class name="com.medimention.testcases.Tc_001_Register_DDT">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.medimention.testcases.Tc_001_Register_DDT@5bf0d49]" started-at="2025-05-10T20:53:40 IST" name="setUp" finished-at="2025-05-10T20:53:48 IST" duration-ms="7727" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="account_Register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.medimention.testcases.Tc_001_Register_DDT@5bf0d49]" started-at="2025-05-10T20:53:50 IST" name="account_Register" data-provider="RegData" finished-at="2025-05-10T20:54:02 IST" duration-ms="12599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Babbette]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bclarae0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bdannohl0@storify.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[uL2"kT_t6Z?k]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[uL2"kT_t6Z?k]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- account_Register -->
+        <test-method signature="account_Register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.medimention.testcases.Tc_001_Register_DDT@5bf0d49]" started-at="2025-05-10T20:54:02 IST" name="account_Register" data-provider="RegData" finished-at="2025-05-10T20:54:09 IST" duration-ms="6970" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Daile]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dhiner1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dsybbe1@whitehouse.gov]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[aU1#?_3(gG21@M]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[aU1#?_3(gG21@M]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- account_Register -->
+        <test-method signature="account_Register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.medimention.testcases.Tc_001_Register_DDT@5bf0d49]" started-at="2025-05-10T20:54:09 IST" name="account_Register" data-provider="RegData" finished-at="2025-05-10T20:54:16 IST" duration-ms="7038" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Editha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[efoggarty2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[eguilliland2@answers.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[wH1(@8rHcB>guG,]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[wH1(@8rHcB>guG,]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- account_Register -->
+        <test-method signature="account_Register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.medimention.testcases.Tc_001_Register_DDT@5bf0d49]" started-at="2025-05-10T20:54:16 IST" name="account_Register" data-provider="RegData" finished-at="2025-05-10T20:54:23 IST" duration-ms="6563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ginny]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gbarthrup3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[gmarvelley3@weebly.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[gY8=5bn.rZB]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[gY8=5bn.rZB]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- account_Register -->
+        <test-method signature="account_Register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.medimention.testcases.Tc_001_Register_DDT@5bf0d49]" started-at="2025-05-10T20:54:23 IST" name="account_Register" data-provider="RegData" finished-at="2025-05-10T20:54:29 IST" duration-ms="6037" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Glyn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ghaet4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[goswick4@behance.net]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[uE6_X0paIOu]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[uE6_X0paIOu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- account_Register -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medimention.testcases.Tc_001_Register_DDT@5bf0d49]" started-at="2025-05-10T20:54:29 IST" name="tearDown" finished-at="2025-05-10T20:54:29 IST" duration-ms="424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medimention.testcases.Tc_001_Register_DDT -->
+      <class name="com.medimention.testcases.Tc_003_searchMedicine">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.medimention.testcases.Tc_003_searchMedicine@6c6cb480]" started-at="2025-05-10T20:54:57 IST" name="setUp" finished-at="2025-05-10T20:55:02 IST" duration-ms="5363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="mediMention()[pri:0, instance:com.medimention.testcases.Tc_003_searchMedicine@6c6cb480]" started-at="2025-05-10T20:55:02 IST" name="mediMention" finished-at="2025-05-10T20:55:20 IST" duration-ms="18144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mediMention -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medimention.testcases.Tc_003_searchMedicine@6c6cb480]" started-at="2025-05-10T20:55:20 IST" name="tearDown" finished-at="2025-05-10T20:55:21 IST" duration-ms="955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medimention.testcases.Tc_003_searchMedicine -->
+      <class name="com.medimention.testcases.Tc_001_Registration">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.medimention.testcases.Tc_001_Registration@557caf28]" started-at="2025-05-10T20:54:29 IST" name="setUp" finished-at="2025-05-10T20:54:37 IST" duration-ms="7191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="account_Register()[pri:0, instance:com.medimention.testcases.Tc_001_Registration@557caf28]" started-at="2025-05-10T20:54:37 IST" name="account_Register" finished-at="2025-05-10T20:54:49 IST" duration-ms="12333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- account_Register -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medimention.testcases.Tc_001_Registration@557caf28]" started-at="2025-05-10T20:54:49 IST" name="tearDown" finished-at="2025-05-10T20:54:49 IST" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medimention.testcases.Tc_001_Registration -->
+      <class name="com.medimention.testcases.Tc_002_getInTouch">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.medimention.testcases.Tc_002_getInTouch@408d971b]" started-at="2025-05-10T20:54:49 IST" name="setUp" finished-at="2025-05-10T20:54:56 IST" duration-ms="6815" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="enqiryDetails()[pri:0, instance:com.medimention.testcases.Tc_002_getInTouch@408d971b]" started-at="2025-05-10T20:54:56 IST" name="enqiryDetails" finished-at="2025-05-10T20:54:57 IST" duration-ms="522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enqiryDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.medimention.testcases.Tc_002_getInTouch@408d971b]" started-at="2025-05-10T20:54:57 IST" name="tearDown" finished-at="2025-05-10T20:54:57 IST" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.medimention.testcases.Tc_002_getInTouch -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
