@@ -8,7 +8,7 @@
 	</run>
 </groups> -->
 	<listeners>
-		<listener class-name="com.medimention.utlities1.ReportingManager" />
+		<listener class-name="com.medimention.utlities.ReportingManager" />
 	</listeners>
 	<test thread-count="5" name="Test">
 		<parameter name="os" value="windows" />
