@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>10/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat May 10 09:13:14 IST 2025</td>
+<td>Started on:</td><td>Mon May 12 23:27:34 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>180 seconds (180313 ms)</td>
+<tr><td>Total time:</td><td>86 seconds (86239 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,12 +76,53 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='com.medimention.testcases.Tc_001_Register_DDT.account_Register()'><b>account_Register</b><br>Test class: com.medimention.testcases.Tc_001_Register_DDT<br>Parameters: Nicky, nchishull0, ntripon0@soup.io, vJ5("?4`9HJ{, vJ5("?4`9HJ{</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.medimention.testcases.Tc_001_Register_DDT.account_Register(Tc_001_Register_DDT.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace634991000", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace634991000'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at com.medimention.testcases.Tc_001_Register_DDT.account_Register(Tc_001_Register_DDT.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>8</td>
+<td>com.medimention.testcases.Tc_001_Register_DDT@7ee8290b</td></tr>
+<tr>
 <td title='com.medimention.testcases.Tc_001_Registration.account_Register()'><b>account_Register</b><br>Test class: com.medimention.testcases.Tc_001_Registration</td>
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
 	at com.medimention.testcases.Tc_001_Registration.account_Register(Tc_001_Registration.java:42)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace307230285", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace307230285'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1825102364", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1825102364'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
 	at org.testng.Assert.assertTrue(Assert.java:57)
@@ -114,7 +155,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>11</td>
+<td>5</td>
 <td>com.medimention.testcases.Tc_001_Registration@561b6512</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -126,34 +167,14 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.medimention.testcases.Tc_001_Register_DDT.account_Register()'><b>account_Register</b><br>Test class: com.medimention.testcases.Tc_001_Register_DDT<br>Parameters: Raffaello, rsiggers5, rglayzer5@youku.com, lB4|,G2r<XfM, lB4|,G2r<XfM</td>
-<td></td>
-<td>12</td>
-<td>com.medimention.testcases.Tc_001_Register_DDT@7ee8290b</td></tr>
-<tr>
-<td title='com.medimention.testcases.Tc_001_Register_DDT.account_Register()'><b>account_Register</b><br>Test class: com.medimention.testcases.Tc_001_Register_DDT<br>Parameters: Arny, awagerfield2, agrinikhin2@apple.com, cK5\u9|gQZo*ESlH, cK5\u9|gQZo*ESlH</td>
-<td></td>
-<td>17</td>
-<td>com.medimention.testcases.Tc_001_Register_DDT@7ee8290b</td></tr>
-<tr>
-<td title='com.medimention.testcases.Tc_001_Register_DDT.account_Register()'><b>account_Register</b><br>Test class: com.medimention.testcases.Tc_001_Register_DDT<br>Parameters: Tybalt, tbareham6, tiannini6@hud.gov, uG9}y1$5k,, uG9}y1$5k,</td>
-<td></td>
-<td>10</td>
-<td>com.medimention.testcases.Tc_001_Register_DDT@7ee8290b</td></tr>
-<tr>
-<td title='com.medimention.testcases.Tc_001_Register_DDT.account_Register()'><b>account_Register</b><br>Test class: com.medimention.testcases.Tc_001_Register_DDT<br>Parameters: , , , , </td>
-<td></td>
-<td>9</td>
-<td>com.medimention.testcases.Tc_001_Register_DDT@7ee8290b</td></tr>
-<tr>
 <td title='com.medimention.testcases.Tc_003_searchMedicine.mediMention()'><b>mediMention</b><br>Test class: com.medimention.testcases.Tc_003_searchMedicine</td>
 <td></td>
-<td>11</td>
+<td>12</td>
 <td>com.medimention.testcases.Tc_003_searchMedicine@1757cd72</td></tr>
 <tr>
-<td title='com.medimention.testcases.Tc_001_Register_DDT.account_Register()'><b>account_Register</b><br>Test class: com.medimention.testcases.Tc_001_Register_DDT<br>Parameters: Genna, gstutte3, gjoyce3@canalblog.com, kB9'=?=V9#X1Cg#, kB9'=?=V9#X1Cg#</td>
+<td title='com.medimention.testcases.Tc_001_Register_DDT.account_Register()'><b>account_Register</b><br>Test class: com.medimention.testcases.Tc_001_Register_DDT<br>Parameters: Ian, itown3, ibariball3@goo.ne.jp, fW6$G)T'=, fW6$G)T'=</td>
 <td></td>
-<td>13</td>
+<td>8</td>
 <td>com.medimention.testcases.Tc_001_Register_DDT@7ee8290b</td></tr>
 <tr>
 <td title='com.medimention.testcases.Tc_002_getInTouch.enqiryDetails()'><b>enqiryDetails</b><br>Test class: com.medimention.testcases.Tc_002_getInTouch</td>
@@ -161,19 +182,14 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>com.medimention.testcases.Tc_002_getInTouch@2e377400</td></tr>
 <tr>
-<td title='com.medimention.testcases.Tc_001_Register_DDT.account_Register()'><b>account_Register</b><br>Test class: com.medimention.testcases.Tc_001_Register_DDT<br>Parameters: Filberto, flamie1, fgres1@clickbank.net, pQ5)xk.nwm, pQ5)xk.nwm</td>
+<td title='com.medimention.testcases.Tc_001_Register_DDT.account_Register()'><b>account_Register</b><br>Test class: com.medimention.testcases.Tc_001_Register_DDT<br>Parameters: Maxie, mcouzens1, mhayhoe1@cornell.edu, aJ5!,LU<\MMZ, aJ5!,LU<\MMZ</td>
 <td></td>
-<td>18</td>
+<td>8</td>
 <td>com.medimention.testcases.Tc_001_Register_DDT@7ee8290b</td></tr>
 <tr>
-<td title='com.medimention.testcases.Tc_001_Register_DDT.account_Register()'><b>account_Register</b><br>Test class: com.medimention.testcases.Tc_001_Register_DDT<br>Parameters: Shandie, sfawckner4, srenvoise4@gravatar.com, mA1/D}>!$$USc#J, mA1/D}>!$$USc#J</td>
+<td title='com.medimention.testcases.Tc_001_Register_DDT.account_Register()'><b>account_Register</b><br>Test class: com.medimention.testcases.Tc_001_Register_DDT<br>Parameters: Karylin, kgreve2, klemar2@ca.gov, iZ0@.rlS!iQI|S_, iZ0@.rlS!iQI|S_</td>
 <td></td>
-<td>12</td>
-<td>com.medimention.testcases.Tc_001_Register_DDT@7ee8290b</td></tr>
-<tr>
-<td title='com.medimention.testcases.Tc_001_Register_DDT.account_Register()'><b>account_Register</b><br>Test class: com.medimention.testcases.Tc_001_Register_DDT<br>Parameters: Gretna, gsally0, gtemplman0@opera.com, sD0}zjf=dOr, sD0}zjf=dOr</td>
-<td></td>
-<td>23</td>
+<td>9</td>
 <td>com.medimention.testcases.Tc_001_Register_DDT@7ee8290b</td></tr>
 </table><p>
 </body>
