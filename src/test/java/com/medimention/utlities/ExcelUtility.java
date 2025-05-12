@@ -1,4 +1,4 @@
-package com.medimention.utlities1;
+package com.medimention.utlities;
 
 import java.io.File;
 import java.io.FileInputStream;

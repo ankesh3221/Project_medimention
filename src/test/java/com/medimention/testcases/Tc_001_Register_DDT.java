@@ -7,7 +7,7 @@ import com.medimention.pageObject.AccountPage;
 import com.medimention.pageObject.FrontPage;
 import com.medimention.pageObject.HomePage;
 import com.medimention.pageObject.RegisterPage;
-import com.medimention.utlities1.DataProviders;
+import com.medimention.utlities.DataProviders;
 
 public class Tc_001_Register_DDT extends baseClass {
 	
