@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.medimention.utlities.ReportingManager"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <parameter name="os" value="windows"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://www.medimention.com/"/>
+    <classes>
+      <class name="com.medimention.testcases.Tc_003_searchMedicine">
+        <methods>
+          <include name="mediMention"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.medimention.testcases.Tc_003_searchMedicine -->
+      <class name="com.medimention.testcases.Tc_001_Registration">
+        <methods>
+          <include name="account_Register"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.medimention.testcases.Tc_001_Registration -->
+      <class name="com.medimention.testcases.Tc_001_Register_DDT">
+        <methods>
+          <include name="setUp"/>
+          <include name="account_Register" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.medimention.testcases.Tc_001_Register_DDT -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
